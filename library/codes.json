@@ -891,6 +891,17 @@
                 "mode": "Funcbeat",
                 "file": "baenhohoho4.js",
                 "fileOriginal": true
+            },
+            {
+                "name": "gqzkslneiw",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat_2/comments/1r8vpv6/gqzkslneiw/",
+                    "https://dollchan.net/btb/res/117.html#12776"
+                ],
+                "date": "Feb 19, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "codeOriginal": "N=4096,n=4**9,R=random()-.5,p=.27*t,typeof d==\"undefined\"?d=Array(512).fill(0):0,DR=(n,t=12,a=1)=>{P=n[p/2**t%n.length|0];return\"K\"==P?atan(2*tanh(sin(600*(f=a*p%N)**.024+8*(d[0]+=(R*1e-23**(p/N%1)**.8-d[0])/7)))*(h=1-a*p/N%1)**3+sin(100*f**.1)*min(1,5*h)*h**.2)/tanh(1)*.4:\"C\"==P?4*(d[1]+=d[2]+=(R-d[1]-2*d[2])/4)*1e-4**(a*p>>8&15?a*p/N%1:a*p/128%1)**.9:\"H\"==P?d[3]+=d[4]+=(R*1e-7**(a*p/N%1)-d[3]-d[4])/.89:0},k=t*2**([7,4,7-(l=p>>12&5),l][t&3]/12-2),tanh(p>n-4**7?p>n?1:~p>>10+(p>>13&1)&1:1)*(atan2(tanh(.6**(p*(1+(p>n))/N%1)*(d[5]+=(48*k%8>(~p>>4+(p<4**9)&127)+.3?6:~24*((k/6^2*k/3)%32&k/64%1*32)-d[5])/4)/56+3)+(p>n&&6*sinh(cos(PI*t*2**(-'0375'[p>>16&3]/12-9))*(74803>>(p>>11&15)&1))),PI)/2+(h=p>n-4**7?p>n?1:0:1)*DR(p>n?\"K C  KC \":\"K C  KCKK CK K  \",12)+h*(p>n/2&&DR(\"H\",0,2))/2)"
             }
         ]
     },
@@ -3739,6 +3750,21 @@
                 "date": "Oct 10, 2025",
                 "sampleRate": 37500,
                 "codeOriginal": "(((((t/2*2**([(t>>18&1?(t>>17&1?-14:-16):-12),((t>>17&3)==3?2:3),((t>>17&3)==3?3:5),((t>>17&3)==3?5:7)][t>>12&3]/12)&(t>>12&1?t>>7:~t>>7)&127)))+((t*2**([0,3,2,3,10,3,2,3][t>>13&7]/12)&127)&255&(t>>12&3?~t>>6:255)))%256+((((t/2*2**([(t>>18&1?(t>>17&1?-14:-16):-12),((t>>17&3)==3?2:3),((t>>17&3)==3?3:5),((t>>17&3)==3?5:7)][t>>12&3]/12)&(t>>12&1?t>>7:~t>>7)&127)))*((t*2**([0,3,2,3,10,3,2,3][t>>13&7]/12)&127)&255&(t>>12&3?~t>>6:255)))%256/8)/1.0625"
+            },
+            {
+                "name": "ANoUserXD - 736367373537 [PrincessPriscillaPT Remix]",
+                "remix": {
+                    "author": "ANoUserXD",
+                    "name": "736367373537",
+                    "url": "https://www.reddit.com/r/bytebeat/comments/1d26qkg/736367373537/"
+                },
+                "mode": "Floatbeat",
+                "url": "https://dollchan.net/btb/res/7164.html#10154",
+                "date": "Oct 25, 2025",
+                "sampleRate": 48000,
+                "stereo": true,
+                "file": "PrincessPriscillaPT.js",
+                "fileOriginal": true
             }
         ]
     },
@@ -4305,6 +4331,21 @@
         "author": "ccret2022",
         "children": [
             {
+                "name": "experimenting with fm synthesis",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1od8sfs/experimenting_with_fm_synthesis/",
+                "date": "Oct 22, 2025",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "codeOriginal": "t/=1.35,pt=1.06,ii=28/25,iii=13/11,iv=151/113,v=223/149,vi=19/12,vii=16/9,fm=(v,u,m,r)=>sin(v*pt*PI/2**7+sin(v*pt*PI/2**u)*m+sin(v*pt*PI/2**r)*m)/2,o=w=>atan(fm(w,6,.06*(-t>>5&255)/8*abs(sin(t*PI/2**19)),5)*4)/4000*((-t>>5&255)+150),f=V=>o(V/1.005)+o(V*1.005),f(t*[1,vi/2,vii/2,t&32768?iv:iii][t>>16&3])+f(t*[iii,1,ii,t&32768?vii:iv][t>>16&3])+f(t*[v,iii,iv,t&32768?2:vii][t>>16&3])+fm(t/2*[1,0,0,0,2,1,0,1,0,1,1,1,2,vii,v,iii,v/2,0,v,v/2,0,v/2,v/2,iii/2,0,iii/2,0,iii/2,0,0,0,0,iv/2,0,iv,iv/2,0,iv,iv/2,0,v/2,0,v/2,iii,vi/2,0,ii/2,vii/2,iv,0,iv*2,2,0,vi*2,v,0,v,0,v/2,v,0,0,v/2,vii/2][t>>12&63],3,1*(-t>>4&255)/80+.6,7)*1.2+atan(sin(sqrt(t&8191)+sin(sqrt(t&8191))*(-t>>5&255)/130)*3+random()/3)*(-t>>5&255)*'1  1 1  '[t>>13&7]/290+(sin((t>>3)*sin(t>>2))/500+sin(sqrt(t*8&2**17-1))/800)*(-t>>6&255)*(t>>14&1)+(random()-.5)*(-t>>4&255)*((-t>>6&255)+200)/1.5e5"
+            },
+            {
+                "url": "https://www.reddit.com/r/DollchanBytebeat/comments/1ofut3h/holyfuckingshitimsinewavingitsofuckinggoodgoonacum/",
+                "date": "Oct 25, 2025",
+                "sampleRate": 75000,
+                "mode": "Floatbeat",
+                "codeOriginal": "k=sin(sqrt(t&16383))*(-t>>5&255)*(-t>>13&1)/160,s=sin(t/18.8+sin(t/5.2+sin(t/14)*3)+sin(t/7.2)*(-t>>5&255)/50)*(-t>>5&255)/200,p=sin(t/13+sin(t/5))*(-t>>6&255)/130,[k,0,0,0,s,0,k,p,0,p,k,0,s,0,0,0][t>>13&15]+round(sin(t*PI/128*[1,9/8,6/5,3/2,8/5,9/5,6/5*2,3/2*2][t>>((t>>16&15)^t>>13)&7])*8)/15"
+            },
+            {
                 "name": "remix of a-desmos-grapher's remix of ilovemykids26",
                 "url": "https://www.reddit.com/r/bytebeat_2/comments/1orc1hk/remix_of_adesmosgraphers_remix_of_ilovemykids26/",
                 "date": "Nov 07, 2025",
@@ -4319,6 +4360,22 @@
                 "codeOriginal": "s=i=>parseInt(i,36),(cos(sqrt((l=t*.75*2**((s('5358555533idhh05'[t>>12&15])-5+s('ojjoc0c0'[(t>>16&3)^t>>12&7]))/12)&511)|l*((-t>>9&7)+(t>>16&7)+2)&511)/9)-.12)*(t&8192?256:t>>5&255)/256+sin(sqrt(t&16383))*(t&8192?0:-t>>5&255)/100"
             }
         ]
+    },
+    {
+        "author": "ØMEGA 777",
+        "remix": {
+            "author": "D3nschøt",
+            "name": "idk a keyboard",
+            "url": "https://www.reddit.com/r/bytebeat/comments/1hhija9/idk_a_keyboard/"
+        },
+        "name": "Keyboard",
+        "url": "https://dollchan.net/btb/res/7164.html#10359",
+        "date": "Nov 03, 2025",
+        "sampleRate": 48000,
+        "stereo": true,
+        "mode": "Floatbeat",
+        "file": "omega.js",
+        "fileOriginal": true
     },
     {
         "author": "vbinchees3000",
