@@ -893,6 +893,18 @@
                 "fileOriginal": true
             },
             {
+                "name": "muhsic",
+                "url": [
+                    "https://www.reddit.com/r/bytebeat_2/comments/1pycky9/muhsic/",
+                    "https://www.bytebeat.cloud/post/be2777a1-da95-4f61-887b-bf5287ebbfd0",
+                    "https://dollchan.net/btb/res/117.html#11681"
+                ],
+                "date": "Dec 28, 2025",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "codeOriginal": "(this.T??=!1)?0:a=new Array(n=12288).fill(w=0),N=4**7,T%=n/64,t%=2**22,s=(a,b=.5)=>a%1>b?-1:1,e=t>>17&1?897348912:897217840,A=(x,y)=>x?a[g=++T%a.length|0]+=(t*2**((e>>4*(7&t>>13)&15)/12)&(~T>>7|64)&127)/2-a[g/y|0]/(1+x)/y+A(x-1,y):0,2*max(-1,min(1,(p=sin(PI*A(~t>>3&7,1)/256E3-t/8192%1)**(A(1,1)-64)||.05+p&&p-.01))-.5)*.4**(t/8192%1)**.3/3*min(1,t/4**9)*(t>2**19-8**5?t>2**19?1:~t>>11+(t>>14&1)&1:1)+(t>2**19?s(48*(k=t/(t>>14&15^15?N:8192)%1)**.4%1)*.1**k**5/4:0)+(t>4**10?s(t*(t^9*t)/.93)*.001**(t/4096%1)*k/3+s(sin((t/4|0)**3))*.01**(e=(t-N)/8**5%1)*min(1,15*e)/3:0)"
+            },
+            {
                 "name": "gqzkslneiw",
                 "url": [
                     "https://www.reddit.com/r/bytebeat_2/comments/1r8vpv6/gqzkslneiw/",
@@ -4353,11 +4365,37 @@
                 "codeOriginal": "s=1.3,a=t*2**([0,-4,-7,3][t*s>>16&3]/12)>>2,b=t*2**([0,0,-2,0,0,-2,3,3,5,5,7,7,10,10,12,7,5,3,2,3,-2,-2,-5,-5,10,10,7,0,,,-2,-5][t*s>>13&31]/12+2),((3*a^t*s>>7&256|a)%256*((-t*s>>5&255)+128)*(1+(t*s>>13&3)/2)/1500+(b^b*1.5)%256/6+(1e6/(t*s&32767)*(t*s>>15&1)%256/2)+random()*(-t*s>>8&63)/1.8+sin(sqrt(t*s&32767))*(d=(-t*s>>7&127)*(-t*s>>14&1)/1.3)+d)/1.62"
             },
             {
+                "name": "młynek",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1pf6ret/m%C5%82ynek/",
+                "date": "Dec 05, 2025",
+                "sampleRate": 56000,
+                "mode": "Signed Bytebeat",
+                "stereo": true,
+                "codeOriginal": "n=i=>.9*2**(i/12),p=(j,w)=>(j|j+w)&128,s=d=>max(min((((sqrt(t&8191)*26)&128)-64)*(t&4096?0:-t>>4&255)/50*(K='1  1 11 1    1 1'[l=t>>13&15])+(((sqrt((t&8191)*19000)+random()*90)&128)-64)*(-t>>5&255)*(S='    1    1  1   '[l])/120+((random()-.5)*((t>>11&3)==0?-t>>5&63:0)*1.8+((c=(t*d*n([(aA=[0,3,7,10])[u=t/2&3],(aB=[-2,2,3,7])[u],(aC=[-5,5,7,14])[u],(aD=[2,5,10,12])[u]][a=t>>17&3])&128)-64)*(-t/3>>5&(v=256)-1)/v+c%v*(-t>>6&v-1)/v)/3+p(t*n([0,3,5,7,10,7,5,3,0,3,5,7,10,-2,12,-5,0,3,5,7,10,7,5,3,7,5,3,2,10,-2,12,15][t>>13&31]),sin(t*PI/2**19)*100)/3+(p(t*n([0,-2,-5,t&65536?3:5][t>>17&3])>>2,20))/1.3-71+round(asin(sin(t*PI/2**6*n([aA[A2=t>>13&3],aB[A2],aC[A2],aD[A2]][a])))*4)*(t>>8&255)/60)*(min(K+S,1)==1?t>>5&255:255)/256,127),-127),[s(.995),s(1.005)]"
+            },
+            {
                 "url": "https://www.bytebeat.cloud/post/21c1a5c4-d084-4fd8-9866-09f9a958786f",
                 "date": "Dec 14, 2025",
                 "sampleRate": 32000,
                 "mode": "Floatbeat",
                 "codeOriginal": "s=i=>parseInt(i,36),(cos(sqrt((l=t*.75*2**((s('5358555533idhh05'[t>>12&15])-5+s('ojjoc0c0'[(t>>16&3)^t>>12&7]))/12)&511)|l*((-t>>9&7)+(t>>16&7)+2)&511)/9)-.12)*(t&8192?256:t>>5&255)/256+sin(sqrt(t&16383))*(t&8192?0:-t>>5&255)/100"
+            },
+            {
+                "name": "ADAMANTINE",
+                "url": "https://www.reddit.com/r/bytebeat/comments/1qcxl77/adamantine/",
+                "date": "Jan 14, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "codeOriginal": "t*=.93,S=sin,C=cos,R=sqrt,D=atan,N=random()-.5,d=l=>(-t&2**l-1)/2**l,n=i=>2**(parseInt(i,36)/12),D(S(R(t+C(R(t&4095)*.9)*26&4095)*.6)*((t>>11&3)==0?d(11)*2:0)*($='1    1  '[t>>13&7]))*3+D((S(R(t&16383)*2)+N)*d(13)*((t>>13&3)==2?2:0))+(N*((t>>10&((t>>14&7)==0?3:7))==0?d(10)*.7:0)+D((((a=t*n(['037a'[s=t>>12&3],'387f'[s],'257e'[s],'5akj'[s]][t>>15&3]))|a>>(((t>>16&15)^t>>13&15)+1))*3%(v=256)-128)/2**4)/8*(d(12)+1)+C(R(t*n('0325'[t>>15&3])*(o='1 21 121'[t>>13&7])&1023)/3)/1.5*min(o,1))*($==1?(t>>5&v-1)/v:1)"
+            },
+            {
+                "name": "remix of zackx's cover of desire drive",
+                "url": "https://www.reddit.com/r/bytebeat_2/comments/1qxlnpu/remix_of_zackxs_cover_of_desire_drive/",
+                "date": "Feb 06, 2026",
+                "sampleRate": 48000,
+                "mode": "Floatbeat",
+                "stereo": true,
+                "codeOriginal": "e=x=>2**x,v=256,n=i=>.8*e(parseInt(i,36)/12),d=l=>(-t&e(l)-1)/e(l),s=sin,c=cos,q=sqrt,a=atan,j=15,u=t>>j,w=t>>13,S=(B,L)=>a(s(q(t+c(q(t%e(13)))*5&e(13)-1))*d(13)*'11   1  '[w&7]*2)+(s(q(t%e(14))*2)*.6+((((t/3>>2)^t>>4)*(t>>6)&128)-64)/e(8))*d(14)*(t>>14&1)+((random()-.5)*d(12)/1.5+a(c(q(t*n('KMJOKMOOO'[u&7])%e(11))/7)*3)*.8*B+((((l=t*n('C7C5C32A23AFEA5A23AFHEACEA5C73A2'[w&31]))|l*((-l>>(t>>12&j)&3)+(u&j)))%v-128)*(d(13)+1)/e(9)+(l*(w&3)%v-128)/e(10))*L)*('111  11 '[w&7]==1?(t%e(13))/e(13):1),[S(1,.9),S(.9,1)]"
             }
         ]
     },
